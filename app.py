@@ -8,7 +8,7 @@ import pickle
 MODEL_PATH = "decision_tree_salary_model.pkl"
 
 try:
-    with open(MODEL_PATH, "rb") as file:
+    with open('decision_tree_salary_model.pkl', "rb") as file:
         model = pickle.load(file)
 except FileNotFoundError:
     st.error(f"Model file not found at {MODEL_PATH}. Make sure you ran the model training cell and saved the .pkl file.")

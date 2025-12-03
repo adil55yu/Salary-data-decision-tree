@@ -6,8 +6,8 @@ from sklearn.preprocessing import StandardScaler
 # -------------------------------
 # Load the trained model
 # -------------------------------
-with open("decision_tree_salary_model.pkl", "rb") as file:
-    model = pickle.load(file)
+with open("decision_tree_salary_model.pkl", "rb") as :decision_tree_salary_model.pkl
+    model = pickle.load(decision_tree_salary_model.pkl)
 
 # Initialize scaler (same as training)
 scaler = StandardScaler()

@@ -5,7 +5,7 @@ import pickle
 # -------------------------------
 # Load the trained model (Kaggle working folder)
 # -------------------------------
-MODEL_PATH = "/kaggle/working/decision_tree_salary_model.pkl"
+MODEL_PATH = "decision_tree_salary_model.pkl"
 
 try:
     with open(MODEL_PATH, "rb") as file:
